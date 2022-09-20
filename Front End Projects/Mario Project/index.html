@@ -7,13 +7,21 @@
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen-styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <script src="./js/script.js" defer></script>
     <title>Mario Project</title>
 </head>
 <body>
     <div class="game-board">
         <img src="./img/clouds.png" class="clouds">
-        <img src="./img/game-over-text.png" class="game-over">
+        <span>
+        <img src="./img/score.png" class="score-img"><p class="score"></p>
+        </span>
+        <div class="game-over">
+            <img src="./img/game-over-text.png" class="game-over-text">
+            <p id="higher-score"></p>
+            <img src="./img/reset.png" onclick="window.location.reload()" class="reset-button">
+        </div>
         <img src="./img/pipe.png" class="pipe">
         <img src="./img/mario-walking.gif" class="mario">
 
