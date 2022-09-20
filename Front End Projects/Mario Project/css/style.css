@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #804611;
+}
+
 .game-board {
     width: 1wh;
     height: 500px;
@@ -14,14 +18,28 @@
     background: linear-gradient(#87CEEB, #EBF6FF);
 }
 
+
+
 .game-over {
     position: absolute;
-    margin-left: 40%;
+    margin-left: 30%;
     margin-right: 50%;
-    margin-top: 10%;
+    margin-top: 5%;
 
     display: none;
 
+}
+
+.game-over-text{
+    /* position: absolute; */
+    /* width: 80px; */
+    margin-left: 15%;
+}
+
+.reset-button{
+    width: 80px;
+    margin-left: 52%;
+    cursor: pointer;
 }
 
 .clouds {
@@ -29,6 +47,29 @@
     width: 27rem;
     bottom: 10rem;
     animation: clouds-animation 20s infinite linear;
+}
+
+.score-img {
+    position: absolute;
+    width: 5rem;
+    /* right: 3rem; */
+    
+}
+.score {
+    font-family: 'VT323';
+    font-size: 30px;
+    color: rgb(185, 28, 28);
+    margin-left: 6%;
+    
+}
+#higher-score {
+    font-family: 'VT323';
+    font-size: 30px;
+    color: rgb(185, 28, 28);
+    margin-left: 167px;
+    /* bottom: 500px; */
+    /* top: 300px; */
+    
 }
 
 .pipe {
