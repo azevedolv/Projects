@@ -28,7 +28,6 @@ Jogo simples do Mario World, que salva localmente a maior pontuação feita ao p
 
 ## Imagens do projeto
 
-![image](https://user-images.githubusercontent.com/98973737/191288520-92691c3c-768f-4f3f-94b8-e6d12c746374.png)
-![image](https://user-images.githubusercontent.com/98973737/191288602-1413dfba-9fab-447d-bf73-7d7a2e13694c.png)
+
 
 
